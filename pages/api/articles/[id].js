@@ -8,4 +8,4 @@ export default function handler({ query: { id }}, res) {
     } else {
         res.status(200).json(filtered[0])
     }
-}
+}gi
