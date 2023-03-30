@@ -1,0 +1,20 @@
+{
+  "name": "LW3-Sophomore-L9-Whitelist-Dapp-PoC",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@gelatonetwork/gasless-onboarding": "^0.0.2",
+    "@gelatonetwork/gasless-wallet": "^0.0.2",
+    "eslint": "8.35.0",
+    "eslint-config-next": "13.2.3",
+    "next": "13.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
